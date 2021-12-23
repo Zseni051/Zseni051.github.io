@@ -18,12 +18,12 @@ body {
 
 .stars {
 	z-index: 0;
-	background: #000 url(/ARK-PVP-Resources/images/stars.png) repeat top
+	background: #000 url(/-/ARK-PVP-Resources/images/stars.png) repeat top
 }
 
 .twinkling {
 	z-index: 1;
-	background: transparent url(/ARK-PVP-Resources/images/twinkling.png) repeat top;
+	background: transparent url(/-/ARK-PVP-Resources/images/twinkling.png) repeat top;
 	-webkit-animation: move-twink-back 200s linear infinite;
 	-moz-animation: move-twink-back 200s linear infinite;
 	animation: move-twink-back 200s linear infinite
@@ -31,7 +31,7 @@ body {
 
 .clouds {
 	z-index: 2;
-	background: transparent url(/ARK-PVP-Resources/images/clouds.png) repeat top;
+	background: transparent url(/-/ARK-PVP-Resources/images/clouds.png) repeat top;
 	-webkit-animation: move-clouds-back 200s linear infinite;
 	-moz-animation: move-clouds-back 200s linear infinite;
 	animation: move-clouds-back 200s linear infinite
