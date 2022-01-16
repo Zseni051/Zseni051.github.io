@@ -23,18 +23,18 @@ background{
 
 .stars {
 	z-index: -4;
-	background: #000 url(/-images/stars.png) repeat top
+	background: #000 url(/-/images/stars.png) repeat top
 }
 .twinkling {
 	z-index: -3;
-	background: transparent url(/-images/twinkling.png) repeat top;
+	background: transparent url(/-/images/twinkling.png) repeat top;
 	-webkit-animation: move-twink-back 200s linear infinite;
 	-moz-animation: move-twink-back 200s linear infinite;
 	animation: move-twink-back 200s linear infinite
 }
 .clouds {
 	z-index: -2;
-	background: transparent url(/-images/clouds.png) repeat top;
+	background: transparent url(/-/images/clouds.png) repeat top;
 	-webkit-animation: move-clouds-back 200s linear infinite;
 	-moz-animation: move-clouds-back 200s linear infinite;
 	animation: move-clouds-back 200s linear infinite
