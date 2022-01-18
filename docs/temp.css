@@ -1,0 +1,515 @@
+/*! CSS Used from: Embedded ; media=all */
+
+@media all {
+	.fa,
+	.fab {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		display: inline-block;
+		font-style: normal;
+		font-variant: normal;
+		text-rendering: auto;
+		line-height: 1;
+	}
+	.fa-discord:before {
+		content: "\f392";
+	}
+	.fa-github:before {
+		content: "\f09b";
+	}
+	.fa-user-secret:before {
+		content: "\f21b";
+	}
+	.fab {
+		font-family: "Font Awesome 5 Brands";
+	}
+	.fab {
+		font-weight: 400;
+	}
+	.fa {
+		font-family: "Font Awesome 5 Free";
+	}
+	.fa {
+		font-weight: 900;
+	}
+}
+
+
+/*! CSS Used from: https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css */
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+a {
+	color: #007bff;
+	text-decoration: none;
+	background-color: transparent;
+}
+a:hover {
+	color: #0056b3;
+	text-decoration: underline;
+}
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+
+button:focus {
+	outline: 1px dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+}
+
+button {
+    border-radius: 0;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	overflow: visible;
+	text-transform: none;
+}
+
+button {
+	-webkit-appearance: button;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border-style: none;
+}
+h4 {
+	margin-bottom: .5rem;
+	font-weight: 500;
+	line-height: 1.2;
+	font-size: 1.5rem;
+    margin-top: 0;
+	margin-bottom: .5rem;
+}
+hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, .1);
+}
+.small {
+	font-size: 80%;
+	font-weight: 400;
+}
+
+
+
+
+.col-md-4 {
+	position: relative;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+@media (min-width:768px) {
+	.col-md-4 {
+		-ms-flex: 0 0 33.333333%;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+}
+
+.card {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: rgb(0, 0, 0);
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, .125);
+	border-radius: .25rem;
+}
+.card-body {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	min-height: 1px;
+	padding: 1.25rem;
+}
+
+.h-100 {
+	height: 100%!important;
+}
+.m-0 {
+	margin: 0!important;
+}
+.mb-3 {
+	margin-bottom: 1rem!important;
+}
+.my-4 {
+	margin-top: 1.5rem!important;
+}
+.my-4 {
+	margin-bottom: 1.5rem!important;
+}
+.py-4 {
+	padding-top: 1.5rem!important;
+}
+.py-4 {
+	padding-bottom: 1.5rem!important;
+}
+
+@media (min-width:768px) {
+	.mb-md-0 {
+		margin-bottom: 0!important;
+	}
+}
+
+.text-center {
+	text-align: center!important;
+}
+.text-uppercase {
+	text-transform: uppercase!important;
+}
+.text-black-50 {
+	color: rgba(0, 0, 0, .5)!important;
+}
+.text-white-50 {
+	color: rgba(255, 255, 255, .5)!important;
+}
+
+
+
+/*! CSS Used from: https://cheataway.com/css/styles.css */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+	background-color: transparent;
+}
+a:hover {
+	color: #949494;
+	text-decoration: underline;
+}
+
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+    width: fit-content;
+	word-wrap: break-word;
+	background-color: #acacac;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+    padding: auto;
+}
+.card-body {
+	flex: 1 1 auto;
+	min-height: 1px;
+	padding: 1.25rem;
+}
+.contact-section .card {
+	border: 0;
+	border-bottom: 0.25rem solid #303030;
+}
+.contact-section .card h4 {
+	font-size: 0.8rem;
+	font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	text-transform: uppercase;
+	letter-spacing: 0.15rem;
+}
+.contact-section .card hr {
+	border-color: rgb(48, 48, 48);
+	border-width: 0.25rem;
+	width: 3rem;
+}
+.footer {
+	padding: 5rem 0;
+	margin-right: 24rem;
+}
+
+
+/*! CSS Used from: Embedded */
+
+.gh-widget-link,
+.gh-widget-link:hover {
+	text-decoration: none;
+}
+
+.gh-widget-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	align-items: center;
+	justify-content: center;
+	color: #333;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.gh-widget-personal-details .bio,
+.gh-widget-stats .count {
+	color: #4078C0;
+}
+
+.github-widget {
+	border: 1px solid #DDD;
+	max-width: 350px;
+}
+
+.gh-widget-item {
+	flex: 1;
+	text-align: center;
+	padding: 10px;
+}
+
+.gh-widget-repositories .language {
+	text-align: left;
+}
+
+.gh-widget-repositories .language div,
+.gh-widget-repositories .stars div {
+	padding: 5px 0;
+}
+
+.gh-widget-photo {
+	flex: 2;
+}
+
+.gh-widget-photo img {
+	border-radius: 100%;
+	max-width: 90px;
+}
+
+.gh-widget-personal-details {
+	flex: 6;
+}
+
+.gh-widget-personal-details .full-name {
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.gh-widget-personal-details .location {
+	font-size: .8em;
+}
+
+.gh-widget-stats .count {
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.gh-widget-repositories .names {
+	flex: 2;
+	text-align: left;
+}
+
+.gh-widget-repositories .names div {
+	padding: 5px 0;
+	text-overflow: ellipsis;
+}
+
+.gh-widget-follow {
+	flex: 2;
+}
+
+.gh-widget-active-time {
+	flex: 4;
+	font-size: .8em;
+}
+
+.gh-widget-heading {
+	font-weight: 400;
+	color: #666;
+}
+
+.gh-widget-hr {
+	border: 1px solid #DDD;
+}
+
+.gh-widget-link {
+	color: #4078C0;
+}
+
+.gh-widget-follow button {
+	width: 100%;
+	height: 2em;
+	border: none;
+	background: #ddd;
+}
+
+
+/*! CSS Used fontfaces */
+
+@font-face {
+	font-family: "Font Awesome 5 Brands";
+	font-style: normal;
+	font-weight: 400;
+	font-display: block;
+	src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.eot);
+	src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.eot?#iefix) format("embedded-opentype"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.woff2) format("woff2"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.woff) format("woff"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.ttf) format("truetype"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.svg#fontawesome) format("svg");
+}
+
+@font-face {
+	font-family: "Font Awesome 5 Free";
+	font-style: normal;
+	font-weight: 400;
+	font-display: block;
+	src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-regular-400.eot);
+	src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-regular-400.eot?#iefix) format("embedded-opentype"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-regular-400.woff2) format("woff2"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-regular-400.woff) format("woff"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-regular-400.ttf) format("truetype"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-regular-400.svg#fontawesome) format("svg");
+}
+
+@font-face {
+	font-family: "Font Awesome 5 Free";
+	font-style: normal;
+	font-weight: 900;
+	font-display: block;
+	src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-solid-900.eot);
+	src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-solid-900.eot?#iefix) format("embedded-opentype"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-solid-900.woff2) format("woff2"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-solid-900.woff) format("woff"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-solid-900.ttf) format("truetype"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-solid-900.svg#fontawesome) format("svg");
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0IIpQlx3QUlC5A4PNr6DRAW_0.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0IIpQlx3QUlC5A4PNr4TRAW_0.woff2) format('woff2');
+	unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0IIpQlx3QUlC5A4PNr5DRAW_0.woff2) format('woff2');
+	unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0IIpQlx3QUlC5A4PNr6TRAW_0.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0IIpQlx3QUlC5A4PNr5jRAW_0.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0IIpQlx3QUlC5A4PNr6jRAW_0.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0IIpQlx3QUlC5A4PNr6zRAW_0.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0IIpQlx3QUlC5A4PNr5TRA.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFVadyB1Wk.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFVYNyB1Wk.woff2) format('woff2');
+	unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFVZdyB1Wk.woff2) format('woff2');
+	unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFVaNyB1Wk.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFVZ9yB1Wk.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFVa9yB1Wk.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFVatyB1Wk.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFVZNyB.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
