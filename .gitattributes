@@ -1,3 +1,2 @@
-*.md linguist-detectable=true
-*.md linguist-language=html
-*.md linguist-documentation=true
+*.docs linguist-detectable=true
+*.docs linguist-documentation=true
