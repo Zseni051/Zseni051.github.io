@@ -19,23 +19,20 @@ body {
     background: #8b8b8b;
 }
 
-section {
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-}
-#contact {
-    margin-bottom: 130px;
+.container-fluid {
+    scroll-margin: 20px;
 }
 .dark_container {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    color: #fff;
-    background-color: rgba(36,37,42,0.5);
+    width: 600px; 
+    height: 830px; 
+    margin: 20px auto auto;
     border: 1px solid transparent;
     border-radius: 0.25rem;
     border-color: #2b2b2b;
+    color: #fff;
+    background-color: rgba(36,37,42,0.5);
+    text-align:justify; 
+    padding:0.5rem
 }
 .contact_card {
     display: flex;
@@ -48,6 +45,9 @@ section {
     color: #000000;
     background-color: #ACACAC;
     border-radius: 0.25rem;
+}
+.contact_card2 {
+    margin-left: 30px;
 }
 hr {
     width: 50px;
@@ -64,4 +64,14 @@ h4{
     margin-top: -5px;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
+}
+@media only screen and (max-width: 760px) {
+	.contact_card2 {
+		margin-left: initial;
+	}
+}
+@media only screen and (min-width: 760px) {
+	.contact_card2 {
+		margin-left: 30px;
+	}
 }
